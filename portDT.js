@@ -7,60 +7,7 @@ var typed = new Typed(".text",{
 });
 
 
-//     const servicesList = document.getElementById('services-list');
-//     const toggleButton = document.getElementById('toggle-services');
-    
-//     // Function to toggle visibility
-//     function toggleServices() {
-//         if (servicesList.style.display === 'none') {
-//             servicesList.style.display = 'block';
-//             toggleButton.textContent = 'Hide Services';
-//         } else {
-//             servicesList.style.display = 'none';
-//             toggleButton.textContent = 'Show Services';
-//         }
-//     }
-    
-//     // Initialize state
-//     servicesList.style.display = 'block'; // Ensure the services are visible initially
 
-//     // Add click event listener to the toggle button
-//     toggleButton.addEventListener('click', toggleServices);
-// });
-
-
-
-
-
-// // Slick Carousel initialization
-// $(document).ready(function(){
-//     $('.services-list').slick({
-//         slidesToShow: 3,
-//         slidesToScroll: 1,
-//         autoplay: true,
-//         autoplaySpeed: 2000,
-//         dots: true,
-//         arrows: true,
-//         responsive: [
-//             {
-//                 breakpoint: 1024,
-//                 settings: {
-//                     slidesToShow: 2,
-//                     slidesToScroll: 1,
-//                     infinite: true,
-//                     dots: true
-//                 }
-//             },
-//             {
-//                 breakpoint: 600,
-//                 settings: {
-//                     slidesToShow: 1,
-//                     slidesToScroll: 1
-//                 }
-//             }
-//         ]
-//     });
-// });
 $('.slider_a').slick({
     infinite: true,
     slidesToShow: 3,
